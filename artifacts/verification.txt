@@ -1,0 +1,50 @@
+终点站不存在 — 原型验证记录
+
+验证环境：macOS / Apple M5 Pro / Godot 4.7.2 / Metal Forward+
+验证日期：2026-09-19
+
+已执行：Godot 资源导入、完整场景加载、带物理射线的交互检查、完整通关、
+错误站名、跨年代物品持久化、隔离存档读写、重新开始和站台边界检查。
+
+以下记录来自实际集成测试：
+
+PASS: Boot opens title screen
+PASS: Player stands on carriage floor
+PASS: Movement enabled after starting
+PASS: W moves along the unobstructed aisle
+PASS: Hidden key cannot be collected in departure era
+PASS: Radio cabinet is locked without key
+PASS: Physical ray can reach photo
+PASS: Inspecting a clue records it and releases movement
+PASS: Clue panel is inside the viewport
+PASS: First loop enters blackout and enables flashlight
+PASS: Key remains hidden during blackout
+PASS: Second loop reveals the abandoned wall niche
+PASS: Physical ray can reach key
+PASS: Key is collected once and hotspot removed
+PASS: Checkpoint is written to isolated test save
+PASS: Loading checkpoint restores inventory and era
+PASS: Inventory persists across time changes
+PASS: Physical ray can reach route
+PASS: Physical ray can reach postcard
+PASS: Both station clues are recorded
+PASS: Physical ray can reach radio
+PASS: Key unlocks the powered radio
+PASS: Wrong station does not end the puzzle
+PASS: Correct station unlocks the exit
+PASS: Exit leads to the snowy platform
+PASS: Player is safely relocated to platform
+PASS: Platform barrier prevents walking off the end
+PASS: Physical ray can reach ending
+PASS: Waiting passenger completes chapter
+PASS: New journey resets puzzle and platform
+PASS: New journey restores interactable objects
+PASS: Performance mode disables volumetric fog
+INTEGRATION RESULT: 32 checks, 0 failures
+
+实际渲染截图：title.png、carriage_0.png、carriage_1.png、carriage_2.png、
+clue.png、radio.png、platform.png。已检查文字可读性和阅读面板位置。
+渲染日志未出现 SCRIPT ERROR 或 ERROR。
+
+截图过程中的瞬时帧率随窗口尺寸与前后台状态而变，不作为性能基准。
+测试不覆盖其他操作系统、导出安装包或长时间试玩。

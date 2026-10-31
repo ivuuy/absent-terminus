@@ -1,0 +1,312 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS: Boot opens title screen
+PASS: New game teaches the rules before movement
+PASS: Available UI action: guide_start 
+PASS: Tutorial starts an actionable journey
+PASS: First objective and world marker point to the photo
+PASS: H help includes the current actionable step
+PASS: Available UI action: guide_start 
+PASS: Physical E interaction: radio
+PASS: Broadcast repair shows missing items and disables installation
+PASS: Missing inventory cannot bypass contextual repair
+PASS: Available UI action: close 
+PASS: Physical E interaction: photo
+PASS: Readable clue: photo
+PASS: Available UI action: close 
+PASS: Photo points to the adjacent lever
+PASS: Physical E interaction: anchor_1
+PASS: Available UI action: repair_device 1
+PASS: One action permanently opens the maintenance door
+PASS: Physical E interaction: maintenance_entry
+PASS: An early locked door explains the requirement without punishment
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: maintenance_entry
+PASS: Entering maintenance disables interactions in the carriage
+PASS: Physical E interaction: service_notes
+PASS: Readable clue: service_notes
+PASS: Available UI action: close 
+PASS: Physical E interaction: ticket_punch
+PASS: Readable clue: ticket_punch
+PASS: Available UI action: close 
+PASS: Ticket is punched automatically with the collected tool
+PASS: Physical E interaction: wall_marks
+PASS: Readable clue: wall_marks
+PASS: Available UI action: close 
+PASS: Physical E interaction: service_clock
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 2
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: pressure_valve
+PASS: Wrong-era valve explains the correct era
+PASS: Wrong-era operation preserves all progress
+PASS: Available UI action: close 
+PASS: Physical E interaction: roof_hatch
+PASS: Unvented roof cannot be entered early
+PASS: Physical E interaction: service_clock
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: pressure_valve
+PASS: Available UI action: repair_device 2
+PASS: One valve operation unlocks the later inspection hatch
+PASS: Physical E interaction: service_clock
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 2
+PASS: Player selects an era and stays in place
+PASS: Vent repair carries across eras visually
+PASS: Physical E interaction: roof_hatch
+PASS: Roof inspection room opens in the future
+PASS: Physical E interaction: relay
+PASS: Readable clue: relay
+PASS: Available UI action: close 
+PASS: Physical E interaction: roof_marks
+PASS: Readable clue: roof_marks
+PASS: Available UI action: close 
+PASS: Physical E interaction: roof_exit
+PASS: Physical E interaction: maintenance_exit
+PASS: Physical E interaction: key
+PASS: Readable clue: key
+PASS: Available UI action: close 
+PASS: Physical E interaction: door_back
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: memory_entry
+PASS: Relay reveals a usable memory room in the blackout
+PASS: Physical E interaction: badge
+PASS: Readable clue: badge
+PASS: Available UI action: close 
+PASS: Physical E interaction: memory_exit
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 0
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: radio
+PASS: Available UI action: install_radio 
+PASS: Three collected items install together and automatically tune the radio
+PASS: Available UI action: close 
+PASS: Broadcast clue points to the route map before the final answer
+PASS: Physical E interaction: route
+PASS: Readable clue: route
+PASS: Available UI action: close 
+PASS: Physical E interaction: postcard
+PASS: Readable clue: postcard
+PASS: Available UI action: close 
+PASS: Physical E interaction: radio
+PASS: Available UI action: station 雾港
+PASS: Wrong station gives an immediate retry without reset or penalty
+PASS: Available UI action: station 白桦
+PASS: Route reasoning restores the broadcast and opens the ending choice
+PASS: Truth ending explains its three-record requirement
+PASS: Available UI action: investigate 
+PASS: Optional investigation gives a concrete next destination
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 2
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: maintenance_entry
+PASS: Physical E interaction: truth_log_1
+PASS: Readable clue: truth_log_1
+PASS: Available UI action: close 
+PASS: Investigation leads from record one to the roof
+PASS: Physical E interaction: roof_hatch
+PASS: Physical E interaction: truth_log_2
+PASS: Readable clue: truth_log_2
+PASS: Available UI action: close 
+PASS: Physical E interaction: roof_exit
+PASS: Physical E interaction: maintenance_exit
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: memory_entry
+PASS: Memory record directs the player to change era inside the room
+PASS: Physical E interaction: memory_clock
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 2
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: truth_log_3
+PASS: Readable clue: truth_log_3
+PASS: Available UI action: close 
+PASS: All optional records are reachable by ordinary exploration
+PASS: Physical E interaction: memory_exit
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 0
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: radio
+PASS: Complete investigation unlocks the third ending
+PASS: Available UI action: ending_expose 
+PASS: Truth ending completes through the guided investigation
+PASS: New game teaches the rules before movement
+PASS: Available UI action: guide_start 
+PASS: Tutorial starts an actionable journey
+PASS: Restart clears investigation, repairs and atmosphere
+PASS: Physical E interaction: photo
+PASS: Readable clue: photo
+PASS: Available UI action: close 
+PASS: Photo points to the adjacent lever
+PASS: Physical E interaction: anchor_1
+PASS: Available UI action: repair_device 1
+PASS: One action permanently opens the maintenance door
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: maintenance_entry
+PASS: Entering maintenance disables interactions in the carriage
+PASS: Physical E interaction: service_notes
+PASS: Readable clue: service_notes
+PASS: Available UI action: close 
+PASS: Physical E interaction: pressure_valve
+PASS: Available UI action: repair_device 2
+PASS: One valve operation unlocks the later inspection hatch
+PASS: Physical E interaction: service_clock
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 2
+PASS: Player selects an era and stays in place
+PASS: Vent repair carries across eras visually
+PASS: Physical E interaction: roof_hatch
+PASS: Roof inspection room opens in the future
+PASS: Physical E interaction: relay
+PASS: Readable clue: relay
+PASS: Available UI action: close 
+PASS: Physical E interaction: roof_exit
+PASS: Physical E interaction: maintenance_exit
+PASS: Physical E interaction: key
+PASS: Readable clue: key
+PASS: Available UI action: close 
+PASS: Physical E interaction: door_back
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: memory_entry
+PASS: Relay reveals a usable memory room in the blackout
+PASS: Physical E interaction: badge
+PASS: Readable clue: badge
+PASS: Available UI action: close 
+PASS: Physical E interaction: memory_exit
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 0
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: radio
+PASS: Available UI action: install_radio 
+PASS: Three collected items install together and automatically tune the radio
+PASS: Available UI action: close 
+PASS: Broadcast clue points to the route map before the final answer
+PASS: Physical E interaction: route
+PASS: Readable clue: route
+PASS: Available UI action: close 
+PASS: Physical E interaction: radio
+PASS: Available UI action: station 白桦
+PASS: Route reasoning restores the broadcast and opens the ending choice
+PASS: Available UI action: ending_takeover 
+PASS: Physical E interaction: door_front
+PASS: Takeover ending completes through the physical door
+PASS: New game teaches the rules before movement
+PASS: Available UI action: guide_start 
+PASS: Tutorial starts an actionable journey
+PASS: Physical E interaction: photo
+PASS: Readable clue: photo
+PASS: Available UI action: close 
+PASS: Photo points to the adjacent lever
+PASS: Physical E interaction: anchor_1
+PASS: Available UI action: repair_device 1
+PASS: One action permanently opens the maintenance door
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: maintenance_entry
+PASS: Entering maintenance disables interactions in the carriage
+PASS: Physical E interaction: service_notes
+PASS: Readable clue: service_notes
+PASS: Available UI action: close 
+PASS: Physical E interaction: pressure_valve
+PASS: Available UI action: repair_device 2
+PASS: One valve operation unlocks the later inspection hatch
+PASS: Physical E interaction: service_clock
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 2
+PASS: Player selects an era and stays in place
+PASS: Vent repair carries across eras visually
+PASS: Physical E interaction: roof_hatch
+PASS: Roof inspection room opens in the future
+PASS: Physical E interaction: relay
+PASS: Readable clue: relay
+PASS: Available UI action: close 
+PASS: Physical E interaction: roof_exit
+PASS: Physical E interaction: maintenance_exit
+PASS: Physical E interaction: key
+PASS: Readable clue: key
+PASS: Available UI action: close 
+PASS: Physical E interaction: door_back
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 1
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: memory_entry
+PASS: Relay reveals a usable memory room in the blackout
+PASS: Physical E interaction: badge
+PASS: Readable clue: badge
+PASS: Available UI action: close 
+PASS: Physical E interaction: memory_exit
+PASS: Physical E interaction: door_front
+PASS: Opening a time doorway does not change era
+PASS: Available UI action: era 0
+PASS: Player selects an era and stays in place
+PASS: Physical E interaction: radio
+PASS: Available UI action: install_radio 
+PASS: Three collected items install together and automatically tune the radio
+PASS: Available UI action: close 
+PASS: Broadcast clue points to the route map before the final answer
+PASS: Physical E interaction: route
+PASS: Readable clue: route
+PASS: Available UI action: close 
+PASS: Physical E interaction: radio
+PASS: Available UI action: station 白桦
+PASS: Route reasoning restores the broadcast and opens the ending choice
+PASS: Available UI action: ending_leave 
+PASS: Physical E interaction: door_back
+PASS: Leave ending opens the snow platform
+PASS: Physical E interaction: ending
+PASS: Leave ending completes at the waiting passenger
+PASS: New game teaches the rules before movement
+PASS: Available UI action: guide_start 
+PASS: Tutorial starts an actionable journey
+PASS: Physical E interaction: photo
+PASS: Readable clue: photo
+PASS: Available UI action: close 
+PASS: Conductor event sequence cannot skip forward
+PASS: Story events preserve conductor horror and reflections
+PASS: Physical E interaction: foreign_ticket
+PASS: Readable clue: foreign_ticket
+PASS: Available UI action: close 
+PASS: Physical E interaction: check_record
+PASS: Readable clue: check_record
+PASS: Available UI action: close 
+PASS: Physical E interaction: conductor
+PASS: Available UI action: trust yes
+PASS: High atmosphere never resets exploration or teleports the player
+PASS: Journal retains collected story clues and repair checklist
+PASS: Available UI action: close 
+PASS: New save records the guided mode and schema v3
+PASS: Returning player resumes without repeating onboarding
+PASS: v2 partial saves restore permanent repairs and accessible rooms
+PASS: v2 migration preserves discovered clues and inventory
+PASS: Old saves explain the changed gameplay on first load
+PASS: Available UI action: guide_start 
+PASS: Migrated progress leads to the next missing item
+PASS: v1 completed broadcast remains a valid arrival
+PASS: Available UI action: guide_start 
+PASS: Physical E interaction: ending
+PASS: Migrated v1 arrival still reaches its ending
+PASS: New game teaches the rules before movement
+PASS: Available UI action: guide_start 
+PASS: Tutorial starts an actionable journey
+PASS: Restart after migrated ending clears outcome state
+INTEGRATION RESULT: 309 checks, 0 failures

@@ -1,0 +1,22 @@
+显示异常修复验证 · 2026-10-24
+
+环境：Godot 4.7.2 / macOS / Apple M5 Pro / Metal Forward+
+
+本次修复：
+- 座位号码牌挂到靠背的局部坐标下，贴合表面并跟随座位移动。
+- 窗边倒影采用玻璃平面上的透明轮廓，范围限制在窗框内，不再压扁旋转实体人物模型。
+- 异常导致的座位偏移改为向车内移动，避免右侧座位进入墙体。
+- 缩小桌上的车票与检查记录，调整照片及连杆的位置，并补齐设备支撑。
+- 收紧桌边连杆交互范围，避免遮挡检查记录的射线。
+
+验证：
+- 真实场景渲染 10 张截图，覆盖异常等级 0–3、倒影正面与侧面、座位偏移前后及桌面记录。
+- 检查截图 window_1.png、window_oblique.png、plaque_2.png、records.png 的可见表面与摆放。
+- 现有完整流程集成测试：309 checks, 0 failures。
+- 最终渲染与集成测试日志无 ERROR / SCRIPT ERROR。
+- 截图与测试使用 test_mode，不写入玩家的旅程存档。
+
+截图复现：
+godot --path . --script tools/capture_visual_fix.gd
+
+检查日志：smoke_test.log、capture.log。
